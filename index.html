@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Танцевально-двигательная терапия: исцеление через движение и эзотерику.">
+    <title>Танцевальная терапия</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: url('header-bg.jpg') center/cover no-repeat;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            color: white;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #ff4081;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+        .cta-button:hover {
+            background: #e91e63;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .content img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        .services-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .service img {
+            width: 200px;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="overlay">
+            <h1>Танцевально-двигательная терапия</h1>
+            <p>Исцеление через движение + эзотерика</p>
+            <a href="#contact" class="cta-button">Связаться</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>Обо мне</h2>
+        <div class="content">
+            <img src="about.jpg" alt="Терапевт в движении">
+            <p>Меня зовут [Ваше Имя]. Я сертифицированный танцевальный терапевт...</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Услуги</h2>
+        <div class="services-list">
+            <div class="service">
+                <img src="session.jpg" alt="Индивидуальная сессия">
+                <h3>Индивидуальные сессии</h3>
+            </div>
+            <div class="service">
+                <img src="group.jpg" alt="Групповое занятие">
+                <h3>Групповые занятия</h3>
+            </div>
+            <div class="service">
+                <img src="energy.jpg" alt="Энергетическая работа">
+                <h3>Энергетическая работа</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Напишите мне в <a href="https://t.me/yourtelegram">Telegram</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Все права защищены</p>
+    </footer>
+</body>
+</html>
